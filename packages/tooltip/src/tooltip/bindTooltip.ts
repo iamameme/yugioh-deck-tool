@@ -2,13 +2,13 @@ import { tooltipContainer } from "../inversify.config";
 import type {
     EnvironmentConfig,
     YgoprodeckService,
-} from "../../../core/src/main";
+} from "yugioh-deck-tool-core";
 import {
     Environment,
     getLogger,
     TYPES,
     YGOPRODECK_TYPES,
-} from "../../../core/src/main";
+} from "yugioh-deck-tool-core";
 
 import { TOOLTIP_TYPES } from "../types";
 import {

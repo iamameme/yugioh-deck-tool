@@ -5,9 +5,12 @@
     "scripts": {
         "lint": "eslint ./src/ ./spec/ --ext .ts",
         "fix": "eslint ./src/ ./spec/ --ext .ts --fix",
-        "test": "jest"
+        "test": "jest",
+        "build": "tsc --build ./src/tsconfig.json"
     },
     "dependencies": {
+        "yugioh-deck-tool-core": "file:../core/",
+        "yugioh-deck-tool-browser-common": "file:../browser-common/",
         "inversify": "^5.0.5",
         "lodash": "^4.17.20",
         "reflect-metadata": "^0.1.13",

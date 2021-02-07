@@ -1,10 +1,10 @@
-import type { EnvironmentConfig } from "../../core/src/main";
+import type { EnvironmentConfig } from "yugioh-deck-tool-core";
 import {
     baseModule,
     deckModule,
     TYPES,
     ygoprodeckModule,
-} from "../../core/src/main";
+} from "yugioh-deck-tool-core";
 import { Container } from "inversify";
 import { DeckController } from "./controller/DeckController";
 import { APPLICATION_TYPES } from "./types";

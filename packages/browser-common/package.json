@@ -2,12 +2,16 @@
     "name": "yugioh-deck-tool-browser-common",
     "version": "5.0.0",
     "private": true,
+    "module": "./dist/main.js",
+    "types": "./dist/main.d.ts",
     "scripts": {
         "lint": "eslint ./src/ ./spec/ --ext .ts",
         "fix": "eslint ./src/ ./spec/ --ext .ts --fix",
-        "test": "jest"
+        "test": "jest",
+        "build": "tsc --build ./src/tsconfig.json"
     },
     "dependencies": {
+        "yugioh-deck-tool-core": "file:../core/",
         "inversify": "^5.0.5",
         "html2canvas": "^1.0.0-rc.7"
     },
