@@ -63,6 +63,7 @@
 					Tools
 				</template>
 				<YgoDrawSim />
+				<YgoPrinter />
 				<BDropdownDivider />
 				<YgoRandomizer />
 			</BDropdown>
@@ -84,6 +85,7 @@ import YgoDeckName from "./YgoDeckName.vue";
 import YgoBuyLink from "./YgoBuyLink.vue";
 import YgoRandomizer from "./tools/YgoRandomizer.vue";
 import YgoDrawSim from "./tools/YgoDrawSim.vue";
+import YgoPrinter from "./tools/YgoPrinter.vue";
 import YgoDeckSortButton from "./edit/YgoDeckSortButton.vue";
 import YgoDeckShuffleButton from "./edit/YgoDeckShuffleButton.vue";
 import YgoDeckClearButton from "./edit/YgoDeckClearButton.vue";
@@ -103,6 +105,7 @@ export default defineComponent({
 		YgoBuyLink,
 		YgoRandomizer,
 		YgoDrawSim,
+		YgoPrinter,
 		BDropdown,
 		BDropdownDivider,
 		YgoDeckSortButton,
